@@ -1,5 +1,4 @@
-</html>
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -49,12 +48,25 @@
             <!-- Embedded map -->
             <iframe src="resilience_webmap.html" width="100%" height="100%" style="border: none;"></iframe>
         </div>
-        <div id="map-container" class="mx-auto">
-            <!-- Description -->
-            <iframe src="Description.htm" width="100%" height="100%" style="border: none;"></iframe>
+        <!-- Collapsible Description -->
+        <div class="accordion my-4" id="descriptionAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Description
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#descriptionAccordion">
+                    <div class="accordion-body">
+                        <p>This is the description content. Add your descriptive text or any relevant information here.</p>
+                        <p>You can also include HTML elements such as lists, links, or images as needed.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Full-width Image -->
         <div class="text-center">
-            <img src="vulnerability_score.png" alt="Multimaps" style="width: 100%; height: auto;">
+            <img src="path-to-your-image.jpg" alt="Descriptive Image Text" style="width: 100%; height: auto;">
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
