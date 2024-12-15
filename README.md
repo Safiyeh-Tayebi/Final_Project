@@ -1,6 +1,7 @@
 # Resilience Index in New Jersey
 
-- **Author**: Safiyeh Tayebi  
+- **Author**: Safiyeh Tayebi
+- **Course**: Command Line GIS
   - **Email**: safiyeh.tayebi@rutgers.edu
 
 - **Overview**: This project explores the **Resilience Index** of populations across New Jersey at the zip code scale. The index evaluates:
