@@ -1,4 +1,4 @@
-# Resilience Index in New Jersey
+# Population's Resilience to heat stress in New Jersey
 
 - **Author**: Safiyeh Tayebi
   - **Email**: safiyeh.tayebi@rutgers.edu
